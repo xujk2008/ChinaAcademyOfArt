@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.caa.views.RotateImageViewWithAnimation
+        android:id="@+id/main_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"/>
+    
+    <com.caa.views.JumpNumView
+        android:id="@+id/main_jumpNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_image"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:textColor="#29a6f6"/>
+    
+</RelativeLayout>
+
