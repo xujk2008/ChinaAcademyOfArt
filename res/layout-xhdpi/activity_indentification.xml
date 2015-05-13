@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/indentification_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/indentification_logo"/>
+    
+    <ImageView
+        android:id="@+id/indentification_first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indentification_logo"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/indentification_first_text"/>
+    
+    <ImageView
+        android:id="@+id/indentification_second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indentification_first_text"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/indentification_second_text"/>
+    
+    <ImageView
+        android:id="@+id/indentification_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/indentification_circle"/>
+    
+    <ImageView
+        android:id="@+id/indentification_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/indentification_circle"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/indentification_0"/>
+    
+    <ImageView
+        android:id="@+id/indentification_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/indentification_print_0"/>
+    
+    <ImageView
+        android:id="@+id/indentification_last_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/indentification_last_button"/>
+    
+    <ImageView
+        android:id="@+id/indentification_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/indentification_next_button"/>
+    
+    <com.caa.views.TouchSenseImageView
+        android:id="@+id/indentification_finger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/indentification_finger"/>
+    
+    <ImageView
+        android:id="@+id/indentification_finger_inner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/indentification_finger"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/indentification_finger_inner"/>
+    
+    <ImageView
+        android:id="@+id/indentification_finger_outter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/indentification_finger_inner"
+        android:src="@drawable/indentification_finger_outter"/>
+    
+    <ImageView
+        android:id="@+id/indentification_finger_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/indentification_finger_inner"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/indentification_finger_text"/>
+    
+</RelativeLayout>

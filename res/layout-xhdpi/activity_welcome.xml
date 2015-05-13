@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/welcome_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/welcome_people"
+        android:layout_marginTop="150dp" />
+
+    <ImageView
+        android:id="@+id/welcome_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/welcome_button" />
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/welcome_button"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="-40dp"
+        android:layout_toLeftOf="@id/welcome_button" >
+
+        <ImageView
+            android:id="@+id/welcome_background1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_you_have_to_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_you_have_to_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/welcome_sign1"
+        android:layout_marginRight="256dp" >
+
+        <ImageView
+            android:id="@+id/welcome_background2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_get_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_get_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/welcome_sign2"
+        android:layout_marginRight="258dp"
+        android:layout_marginTop="-10dp" >
+
+        <ImageView
+            android:id="@+id/welcome_background3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_good_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_good_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/welcome_sign3"
+        android:layout_marginRight="268dp" >
+
+        <ImageView
+            android:id="@+id/welcome_background4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_before_you_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_before_you_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/welcome_sign4"
+        android:layout_marginRight="256dp"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/welcome_background5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_are_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_are_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/welcome_sign5"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="-3dp" >
+
+        <ImageView
+            android:id="@+id/welcome_background6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_second_good_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_second_good_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/welcome_sign7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/welcome_sign6"
+        android:layout_marginRight="258dp"
+        android:layout_marginTop="-4dp" >
+
+        <ImageView
+            android:id="@+id/welcome_background7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_better_for_it_1" />
+
+        <ImageView
+            android:id="@+id/welcome_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/welcome_better_for_it_2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="100dp" >
+
+        <ImageView
+            android:id="@+id/welcome_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome_text_1"
+            android:layout_marginLeft="30dp" />
+
+        <ImageView
+            android:id="@+id/welcome_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcome_text_1"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/welcome_text_2"
+            android:layout_marginLeft="30dp" />
+
+        <ImageView
+            android:id="@+id/welcome_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcome_text_2"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/welcome_text_3"
+            android:layout_marginLeft="30dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

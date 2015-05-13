@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/product__0004_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/product_top"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/product_top" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/product_point" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/product_logo" />
+"
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/product_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/product__0001s_0001s_0001_g" />
+
+        <ImageView
+            android:id="@+id/product_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="95dp"
+            android:layout_toRightOf="@id/product_g"
+            android:scaleType="fitCenter"
+            android:src="@drawable/product__0001s_0001s_0000_f" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/product_360"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/product_0" />
+
+    <ImageView
+        android:id="@+id/product_last_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="310dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/product_last_botton" />
+
+    <ImageView
+        android:id="@+id/product_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="310dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/product_next_botton" />
+
+    <SeekBar
+        android:id="@+id/product_seekbar"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_next_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:progressDrawable="@drawable/seek_bar"
+        android:thumb="@drawable/seek_bar_button" />
+
+    <ImageView
+        android:id="@+id/product_designs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/product_character_layout"
+        android:scaleType="fitXY"
+        android:src="@drawable/product_total" />
+    
+    <RelativeLayout
+        android:id="@id/product_character_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_seekbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" >
+
+        <LinearLayout
+            android:id="@+id/product_character_backround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/product_health_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_health_2" />
+
+            <ImageView
+                android:id="@+id/product_target_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_target_2" />
+
+            <ImageView
+                android:id="@+id/product_human_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_human_2" />
+
+            <ImageView
+                android:id="@+id/product_intelligence_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_intelligence_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/product_character"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/product_health_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_health_1" />
+
+            <ImageView
+                android:id="@+id/product_target_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_target_1" />
+
+            <ImageView
+                android:id="@+id/product_human_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_human_1" />
+
+            <ImageView
+                android:id="@+id/product_intelligence_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/product_intelligence_1" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
