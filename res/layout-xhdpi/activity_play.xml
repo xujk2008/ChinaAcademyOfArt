@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/play_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/play_logo" />
+
+    <SurfaceView
+        android:id="@+id/play_surface"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/play_logo"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/play_progress_layout"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/play_media_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_media_mute" />
+        
+        <ImageView
+            android:id="@+id/play_media_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/play_media_pause" />
+        
+        <ImageView
+            android:id="@+id/play_media_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/play_media_stop" />
+        
+    </LinearLayout>
+    
+    <HorizontalScrollView
+        android:id="@+id/play_scroll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/play_progress_layout"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/play_scroll_image1"
+                android:layout_width="11393px"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_scroll1" />
+            
+        </RelativeLayout>
+        
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/play_scroll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/play_progress_layout"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/play_scroll_image2"
+                android:layout_width="11393px"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_scroll2" />
+            
+        </LinearLayout>
+        
+    </HorizontalScrollView>
+    
+    <ImageView
+        android:id="@+id/play_text_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/play_logo"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/play_wave_layout"
+        android:src="@drawable/play_text_mask" />
+    
+    <LinearLayout 
+        android:id="@id/play_wave_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/play_progress_layout"
+        android:gravity="bottom"
+        android:orientation="horizontal">"
+        
+    </LinearLayout>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/play_calories_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="26dp"
+        android:src="@drawable/play_distance_0"/>
+    
+     <com.caa.views.JumpNumImageView
+        android:id="@+id/play_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/play_heart_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/play_speed_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_resistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/play_resistance_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_cadence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/play_cadence_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_avg_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/play_avg_left_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_max_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/play_max_left_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_avg_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/play_avg_right_0"/>
+    
+    <com.caa.views.JumpNumImageView
+        android:id="@+id/play_max_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/play_max_right_0"/>
+    
+    <RelativeLayout
+        android:id="@id/play_progress_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/play_progress_ruler" />
+        
+        <ImageView
+            android:id="@+id/play_progress_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/play_progress_indicator" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>
